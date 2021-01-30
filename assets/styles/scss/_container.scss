@@ -9,14 +9,9 @@
         padding: 3px;
         margin-bottom: 10px;
         font-weight: 700;
-        &::after {
-            content: '';
-            position: absolute;
-            background: black;
-            height: 2px;
-            width: 67px;
-            bottom: 0;
-            right: 115px;
+        span {
+            text-decoration: underline;
+            text-underline-position: under;
         }
     }
     .accordion {
